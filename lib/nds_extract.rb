@@ -6,6 +6,11 @@ require 'pp'
 # using director_data as input
 def gross_for_director(director_data)
   i = 0;
+
+
+
+
+
   total = 0;
   director_movie = director_data[:movies]
   while i < director_movie.length do
@@ -22,9 +27,7 @@ end
 def directors_totals(nds)
   result = {}
   row_index = 0;
-  while row_index < nds.count do
-    puts nds[row_index][:names]
-  end
+  puts  nds[0][:name]
 
 #   result[director_name] = gross_for_director(nds)
 #   puts result
