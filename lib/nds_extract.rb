@@ -31,5 +31,5 @@ def directors_totals(nds)
     #
     # end
     # puts result
-    pp nds[1][:name]
+    pp nds nds[0][:name]
 end
