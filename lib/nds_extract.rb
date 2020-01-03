@@ -32,5 +32,6 @@ def directors_totals(nds)
 
     end
     puts result
+    return result
 
 end
