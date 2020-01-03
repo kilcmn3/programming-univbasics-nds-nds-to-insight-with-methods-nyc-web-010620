@@ -28,9 +28,7 @@ def directors_totals(nds)
       result[director_name] = total_gross_for_director
 
       row_index += 1
-      puts result
+
     end
-#   result[director_name] = gross_for_director(nds)
-#   puts result
-# return result
+    puts result
 end
