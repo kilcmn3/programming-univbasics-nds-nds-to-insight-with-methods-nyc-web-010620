@@ -31,5 +31,5 @@ def directors_totals(nds)
     #
     # end
     # puts result
-    puts gross_for_director(director_data)
+    pp nds
 end
