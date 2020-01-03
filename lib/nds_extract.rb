@@ -22,13 +22,14 @@ end
 def directors_totals(nds)
   result = {}
   row_index = 0;
-    while row_index < nds.count do
-      director_name = nds[row_index][:name]
-      total_gross_for_director = gross_for_director(nds)
-      result[director_name] = total_gross_for_director
-
-      row_index += 1
-
-    end
-    puts result
+    # while row_index < nds.count do
+    #   director_name = nds[row_index][:name]
+    #   total_gross_for_director = gross_for_director(nds)
+    #   result[director_name] = total_gross_for_director
+    #
+    #   row_index += 1
+    #
+    # end
+    # puts result
+    puts gross_for_director(nds)
 end
