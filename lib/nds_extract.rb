@@ -6,11 +6,6 @@ require 'pp'
 # using director_data as input
 def gross_for_director(director_data)
   i = 0;
-
-
-
-
-
   total = 0;
   director_movie = director_data[:movies]
   while i < director_movie.length do
