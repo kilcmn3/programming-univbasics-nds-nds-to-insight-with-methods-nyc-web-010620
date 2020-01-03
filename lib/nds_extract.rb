@@ -34,7 +34,7 @@ def directors_totals(nds)
 
       row_index += 1
       puts result
-end
+    end
 #   result[director_name] = gross_for_director(nds)
 #   puts result
 # return result
