@@ -30,9 +30,9 @@ def directors_totals(nds)
     while row_index < nds.count do
       director_name = nds[row_index][:name]
       total_gross_for_director = gross_for_director(nds)
-
       result[director_name] = total_gross_for_director
 
+      row_index += 1
       puts result
 
 #   result[director_name] = gross_for_director(nds)
